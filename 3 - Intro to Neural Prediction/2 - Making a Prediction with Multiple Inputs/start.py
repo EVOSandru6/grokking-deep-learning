@@ -18,3 +18,5 @@ nfans = [1.2, 1.3, .5, 1]
 input = [toes[0], wlrec[0], nfans[0]]
 
 pred = neural_network(input, weights)
+
+print(pred)
