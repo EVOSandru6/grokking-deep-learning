@@ -125,7 +125,7 @@ pip-selfcheck.json
 .idea/gradle.xml
 .idea/libraries
 
-# Mongo Explorer plugin:1
+# Mongo Explorer plugin:1 - A Simple Neural Network Making a Prediction
 .idea/mongoSettings.xml
 
 .idea/
