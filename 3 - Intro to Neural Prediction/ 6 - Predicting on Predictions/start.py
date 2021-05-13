@@ -1,19 +1,25 @@
 import numpy as np
 
+
 def neural_network(input, weights):
     hid = input.dot(weights[0])
     pred = hid.dot(weights[1])
     return pred
 
+
 # toes %win #fans
-ih_wgt = [[0.1, 0.2, -0.1],  # hid[0]
-          [-0.1, 0.1, 0.9],  # hid[1]
-          [0.1, 0.4, 0.1]]  # hid[2]
+ih_wgt = [
+    [0.1, 0.2, -0.1],  # hid[0]
+    [-0.1, 0.1, 0.9],  # hid[1]
+    [0.1, 0.4, 0.1]  # hid[2]
+]
 
 # hid[0] hid[1] hid[2]
-hp_wgt = [[0.3, 1.1, -0.3],  # hurt?
-          [0.1, 0.2, 0.0],  # win?
-          [0.0, 1.3, 0.1]]  # sad?
+hp_wgt = [
+    [0.3, 1.1, -0.3],  # hurt?
+    [0.1, 0.2, 0.0],  # win?
+    [0.0, 1.3, 0.1]  # sad?
+]
 
 weights = [ih_wgt, hp_wgt]
 
