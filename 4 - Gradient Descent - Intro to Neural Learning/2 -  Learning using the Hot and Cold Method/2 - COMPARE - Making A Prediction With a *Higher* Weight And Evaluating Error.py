@@ -14,5 +14,3 @@ lr = 0.01
 p_up = neural_network(inp,weight+lr)
 e_up = (p_up - expected) ** 2
 print(e_up)
-
-print(err)
