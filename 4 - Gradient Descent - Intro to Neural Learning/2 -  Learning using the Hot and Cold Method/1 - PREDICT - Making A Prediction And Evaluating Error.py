@@ -3,7 +3,7 @@ def neural_network(inp, weight):
 
 
 weight = .1
-lt = 0.01
+lt = 0.01  # приращение
 
 number_of_toes = [8.5]
 win_or_lose_binary = [1]
